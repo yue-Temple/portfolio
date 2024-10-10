@@ -1,0 +1,1 @@
+powershell -File stkncode.ps1
