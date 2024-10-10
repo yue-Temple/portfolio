@@ -43,7 +43,7 @@ AllResultServlet⇒AllResultJSP
 totalorderlistから集計結果を表示している。
 totalorderlist⇒販売個数が入っている配列。
 productlist[0].getUnitPrice()　商品インスタンスの持っている商品の金額を参照。
-↑ここでDAOのスクショとかみせる
+↑＋DAOのスクショ
 
 ～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～↑
 
