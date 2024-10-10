@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS Orders;
+CREATE TABLE Orders(
+id INT NOT NULL,
+staffid VARCHAR(6) NOT NULL,
+orderTime TIMESTAMP,
+note VARCHAR(40),
+PRIMARY KEY (id),
+FOREIGN KEY(staffid) REFERENCES staff(id)
+);
